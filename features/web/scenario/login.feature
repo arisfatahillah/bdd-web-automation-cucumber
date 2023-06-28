@@ -2,7 +2,7 @@
 Feature: Feature Login
 
 @login-valid-credentials
-Scenario: User canlogin with valid credentials
+Scenario: User can login with valid credentials
   Given user go to login page
   And validate page have content "Login" exist
   When user input field username "aris"
